@@ -1,0 +1,75 @@
+nessuno.html
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>NESSUNO</title>
+
+<style>
+body {
+margin:0;
+font-family: Arial, sans-serif;
+background: radial-gradient(#3b2537,#120814);
+color:#f3c28b;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container {
+text-align:center;
+}
+
+h1 {
+font-size:48px;
+margin-bottom:5px;
+}
+
+.logo {
+font-size:60px;
+font-style:italic;
+margin-bottom:40px;
+}
+
+a.button {
+display:block;
+width:260px;
+margin:15px auto;
+padding:15px;
+border:2px solid #f3c28b;
+color:#f3c28b;
+text-decoration:none;
+font-size:18px;
+border-radius:30px;
+transition:0.3s;
+}
+
+a.button:hover {
+background:#f3c28b;
+color:#120814;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>NESSUNO</h1>
+<div class="logo">𝓝</div>
+
+<a class="button" href="https://open.spotify.com/artist/35ReHoGfnoTWT9lJJpEVkU?si=SFh0xTghSputvzPkAXGAtg" target="_blank">
+🎵 ASCOLTA SU SPOTIFY
+</a>
+
+<a class="button" href="https://www.eventbrite.it/e/nessuno-tickets-1981791482673?aff=oddtdtcreator" target="_blank">
+🎫 ACQUISTA BIGLIETTO
+</a>
+
+</div>
+
+</body>
+</html>
